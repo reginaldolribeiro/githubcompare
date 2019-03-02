@@ -5,14 +5,14 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
   }
 
-body {
-  background: #9B65E6;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-}
-
+  body {
+    background: #6C25CE;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+  }
 `;
 
 export default GlobalStyle;
