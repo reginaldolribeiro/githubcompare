@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'font-awesome/css/font-awesome.css';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -9,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #6C25CE;
+    background: #4f4e50;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     font-family: sans-serif;
